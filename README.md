@@ -1,4 +1,4 @@
-# 🌍 Western Tech vs. Chinese Challenger 🇨🇳
+#🌍 🇺🇸 Western Tech vs. Chinese Challenger 🇨🇳
 
 <p align="center">
   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHJ6bmZ6bmZ6bmZ6bmZ6bmZ6bmZ6bmZ6bmZ6bmZ6bmZ6bmZ6bmZ6JmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZCZjdD1n/l41lTjJp6z6z6z6z6/giphy.gif" width="600" alt="Global Tech Rivalry Connectivity Map">
@@ -54,7 +54,7 @@ In these sectors, Western dominance is being tested by China's massive state-bac
 
 In these sectors, China has moved beyond "catch-up" and now leads in innovation mastery, manufacturing scale, and global deployment.
 
-| # | Technology Sector | Chinese Leaders | Western Laggers | Key Advantage |
+| # | Technology Sector | Chinese Leaders | Western Challengers | Key Advantage |
 |:---:|---|---|---|---|
 | 1 | 🔋 **EV Battery Chain** | [CATL](https://www.catl.com), [BYD](https://www.bydglobal.com) | [Tesla](https://github.com/teslamotors), [Northvolt](https://www.northvolt.com) | LFP & Sodium-ion scale |
 | 2 | 🚘 **Electric Vehicles** | [BYD](https://www.bydglobal.com), [GAC](https://www.gac-motor.com) | [Tesla](https://github.com/teslamotors), [VW Group](https://github.com/volkswagen) | Vertically integrated supply |
