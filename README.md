@@ -54,7 +54,7 @@ In these sectors, Western dominance is being tested by China's massive state-bac
 
 In these sectors, China has moved beyond "catch-up" and now leads in innovation mastery, manufacturing scale, and global deployment.
 
-| # | Technology Sector | Chinese Leaders | Western Challengers | Key Advantage |
+| # | Technology Sector | Chinese Leaders | Western Laggers | Key Advantage |
 |:---:|---|---|---|---|
 | 1 | 🔋 **EV Battery Chain** | [CATL](https://www.catl.com), [BYD](https://www.bydglobal.com) | [Tesla](https://github.com/teslamotors), [Northvolt](https://www.northvolt.com) | LFP & Sodium-ion scale |
 | 2 | 🚘 **Electric Vehicles** | [BYD](https://www.bydglobal.com), [GAC](https://www.gac-motor.com) | [Tesla](https://github.com/teslamotors), [VW Group](https://github.com/volkswagen) | Vertically integrated supply |
