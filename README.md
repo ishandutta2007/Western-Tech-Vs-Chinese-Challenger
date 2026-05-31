@@ -54,23 +54,23 @@ In these sectors, Western dominance is being tested by China's massive state-bac
 
 In these sectors, China has moved beyond "catch-up" and now leads in innovation mastery, manufacturing scale, and global deployment.
 
-| # | Technology Sector | Current Status | Key Advantage |
-|:---:|---|---|---|
-| 1 | 🔋 **EV Battery Supply Chain** | [CATL](https://www.catl.com), [BYD](https://www.bydglobal.com) | LFP, Sodium-ion, & Solid-state leads |
-| 2 | 🚘 **Electric Vehicle Mfg** | [BYD](https://www.bydglobal.com), [GAC](https://www.gac-motor.com) | Vertically integrated supply chains |
-| 3 | 🔐 **Quantum Communication** | [USTC](https://en.ustc.edu.cn), [CAS](https://english.cas.cn) | National quantum-secured fiber networks |
-| 4 | 🚄 **High-Speed Rail (HSR)** | [CRRC](https://www.crrcgc.cc) | 600 km/h Maglev & infrastructure scale |
-| 5 | 🚀 **Hypersonic Technology** | [CASC](https://english.spacechina.com) | Deployment of DF-17 & hypersonic gliders |
-| 6 | ☀️ **Solar & Wind Energy** | [LONGi](https://www.longi.com), [Goldwind](https://www.goldwind.com) | Perovskite cells & massive offshore wind |
-| 7 | 📡 **5G/6G Infrastructure** | [Huawei](https://github.com/huawei), [ZTE](https://www.zte.com.cn) | Most 5G stations; 40% 6G patents |
-| 8 | 🦾 **Industrial Robotics** | [Siasun](https://www.siasun.com), [Estun](https://www.estun.com) | Massive scale & smart factory integration |
-| 9 | ⚡ **Ultra-High Voltage (UHV)** | [State Grid](https://www.sgcc.com.cn) | Efficient renewable energy transmission |
-| 10 | 🌊 **Deep-Sea Engineering** | [CSSC](https://www.cssc.net.cn) | Deep-sea mining & research robotics |
-| 11 | 💳 **Fintech & Mobile Payments** | [Ant Group](https://github.com/antgroup), [Tencent](https://github.com/Tencent) | QR-based ecosystems (Alipay/WeChat) |
-| 12 | 🛸 **Commercial Drones** | [DJI](https://github.com/dji-sdk) | Consumer and industrial drone tech |
-| 13 | 📦 **Advanced Packaging** | [JCET](https://www.jcetglobal.com) | Bypassing lithography limits via packaging |
-| 14 | 🏙️ **Smart City AI** | [SenseTime](https://github.com/sensetime-auth), [Dahua](https://www.dahuasecurity.com) | Real-time urban management & surveillance |
-| 15 | 💎 **Rare Earth Processing** | [Chinalco](https://www.chinalco.com.cn) | Control of critical mineral refining |
+| # | Technology Sector | Chinese Leaders | Western Challengers | Key Advantage |
+|:---:|---|---|---|---|
+| 1 | 🔋 **EV Battery Chain** | [CATL](https://www.catl.com), [BYD](https://www.bydglobal.com) | [Tesla](https://github.com/teslamotors), [Northvolt](https://www.northvolt.com) | LFP & Sodium-ion scale |
+| 2 | 🚘 **Electric Vehicles** | [BYD](https://www.bydglobal.com), [GAC](https://www.gac-motor.com) | [Tesla](https://github.com/teslamotors), [VW Group](https://github.com/volkswagen) | Vertically integrated supply |
+| 3 | 🔐 **Quantum Comm.** | [USTC](https://en.ustc.edu.cn), [CAS](https://english.cas.cn) | [Toshiba](https://www.toshiba.co.jp), [ID Quantique](https://www.idquantique.com) | National QKD networks |
+| 4 | 🚄 **High-Speed Rail** | [CRRC](https://www.crrcgc.cc) | [Alstom](https://github.com/alstom), [Siemens Mobility](https://github.com/siemens) | 600 km/h Maglev tech |
+| 5 | 🚀 **Hypersonics** | [CASC](https://english.spacechina.com) | [Lockheed Martin](https://www.lockheedmartin.com), [Raytheon](https://www.rtx.com) | Glide vehicle deployment |
+| 6 | ☀️ **Solar & Wind** | [LONGi](https://www.longi.com), [Goldwind](https://www.goldwind.com) | [First Solar](https://www.firstsolar.com), [Vestas](https://github.com/vestas) | Perovskite cell efficiency |
+| 7 | 📡 **5G/6G Infra** | [Huawei](https://github.com/huawei), [ZTE](https://www.zte.com.cn) | [Ericsson](https://github.com/Ericsson), [Nokia](https://github.com/nokia) | 40% of global 6G patents |
+| 8 | 🦾 **Industrial Robots** | [Siasun](https://www.siasun.com), [Estun](https://www.estun.com) | [ABB](https://github.com/abb-robotics), [Fanuc](https://www.fanuc.co.jp) | Smart factory integration |
+| 9 | ⚡ **UHV Transmission** | [State Grid](https://www.sgcc.com.cn) | [Siemens Energy](https://github.com/siemens), [GE Vernova](https://github.com/ge-vernova) | Long-distance efficiency |
+| 10 | 🌊 **Deep-Sea Eng.** | [CSSC](https://www.cssc.net.cn) | [TechnipFMC](https://www.technipfmc.com), [Saipem](https://github.com/saipem) | 10,000m+ research subs |
+| 11 | 💳 **Fintech/Payments** | [Ant Group](https://github.com/antgroup), [Tencent](https://github.com/Tencent) | [PayPal](https://github.com/paypal), [Stripe](https://github.com/stripe) | QR-based "Super App" model |
+| 12 | 🛸 **Comm. Drones** | [DJI](https://github.com/dji-sdk) | [Skydio](https://github.com/skydio), [Parrot](https://github.com/Parrot-Developers) | Global market dominance |
+| 13 | 📦 **Adv. Packaging** | [JCET](https://www.jcetglobal.com) | [Amkor](https://www.amkor.com), [Intel](https://github.com/intel) | Chiplet-based performance |
+| 14 | 🏙️ **Smart City AI** | [SenseTime](https://github.com/sensetime-auth), [Dahua](https://www.dahuasecurity.com) | [NVIDIA](https://github.com/NVIDIA), [Quantela](https://www.quantela.com) | Real-time urban management |
+| 15 | 💎 **Rare Earth Proc.** | [Chinalco](https://www.chinalco.com.cn) | [MP Materials](https://www.mpmaterials.com), [Lynas](https://www.lynasrareearths.com) | Refining monopoly control |
 
 ---
 
