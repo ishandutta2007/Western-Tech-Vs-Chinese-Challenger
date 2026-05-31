@@ -1,4 +1,4 @@
-#🌍 🇺🇸 Western Tech vs. Chinese Challenger 🇨🇳
+# 🌍  Western Tech 🇺🇸 vs. Chinese Challenger 🇨🇳
 
 <p align="center">
   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHJ6bmZ6bmZ6bmZ6bmZ6bmZ6bmZ6bmZ6bmZ6bmZ6bmZ6bmZ6bmZ6JmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZCZjdD1n/l41lTjJp6z6z6z6z6/giphy.gif" width="600" alt="Global Tech Rivalry Connectivity Map">
