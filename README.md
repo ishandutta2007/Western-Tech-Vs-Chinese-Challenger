@@ -25,28 +25,28 @@ From the **AI Arms Race** to **Sovereign Tech Stacks**, this guide tracks who is
 
 In these sectors, Western dominance is being tested by China's massive state-backed R&D, policy support, and architectural innovation (The "2.7% Gap").
 
-| # | Technology | Key Competitors/Status | Focus Area |
-|:---:|---|---|---|
-| 1 | 🧠 **Frontier AI Models (LLMs)** | [OpenAI](https://github.com/openai), [Google](https://github.com/google), [Anthropic](https://github.com/anthropics) | Efficiency (DeepSeek) & Logic |
-| 2 | 💾 **Advanced Logic Chips** | [NVIDIA](https://github.com/NVIDIA), [TSMC](https://www.tsmc.com), [Intel](https://github.com/intel) | sub-5nm manufacturing & self-sufficiency |
-| 3 | 🔬 **EUV Lithography** | [ASML](https://www.asml.com) | Domestic photolithography equipment |
-| 4 | 💻 **EDA Software** | [Cadence](https://github.com/cadence-design-systems), [Synopsys](https://github.com/synopsys) | IC design tool independence |
-| 5 | ⚛️ **Quantum Computing** | [IBM](https://github.com/ibm), [Google](https://github.com/google), [IonQ](https://github.com/ionq) | High-qubit processors & Error correction |
-| 6 | ✈️ **Commercial Aircraft** | [Boeing](https://github.com/Boeing), [Airbus](https://github.com/airbus), [COMAC](http://www.comac.cc) | COMAC C919 & C929 scaling |
-| 7 | 🧬 **Biopharma & mRNA** | [Pfizer](https://github.com/pfizer-opensource), [Moderna](https://github.com/moderna), [Merck](https://github.com/merckgroup) | Drug discovery & vaccine platforms |
-| 8 | ☁️ **Cloud Infrastructure** | [AWS](https://github.com/aws), [Azure](https://github.com/azure), [GCP](https://github.com/googlecloudplatform) | Global cloud architecture & scaling |
-| 9 | 🛰️ **Satellite Internet** | [SpaceX](https://github.com/spacex) (Starlink) | LEO Constellations (G60, Guowang) |
-| 10 | 🧠 **Brain-Computer Interfaces** | [Neuralink](https://github.com/neuralinkcorp) | Medical rehab & human-machine collab |
-| 11 | ☢️ **Nuclear Fusion** | [ITER](https://www.iter.org), [CFS](https://github.com/cfs-energy) | CFETR (China Fusion Engineering Test Reactor) |
-| 12 | 📏 **Precision Instruments** | [Thermo Fisher](https://github.com/thermofisherlsms), [Agilent](https://github.com/Agilent) | Lab equipment & scientific sensors |
-| 13 | 🏥 **High-End Medical Imaging** | [GE](https://github.com/GE), [Siemens](https://github.com/siemens), [Philips](https://github.com/philips-software) | Advanced MRI, CT, and PET scanners |
-| 14 | 🚗 **Autonomous Driving (FSD)** | [Tesla](https://github.com/teslamotors), [Waymo](https://github.com/waymo-research) | L4/L5 full self-driving parity |
-| 15 | 🧵 **Advanced Carbon Fiber** | [Toray](https://www.toray.com), [Hexcel](https://www.hexcel.com) | High-performance aerospace materials |
-| 16 | ⚓ **Marine Engines** | [MAN ES](https://github.com/man-es), [Wärtsilä](https://github.com/wartsila) | Large-scale propulsion & green shipping |
-| 17 | ⚡ **Exascale Computing** | [HPE](https://github.com/HPE), [NVIDIA](https://github.com/NVIDIA) | Efficient high-performance computing |
-| 18 | 🌾 **Agricultural Biotech** | [Bayer](https://github.com/Bayer-Group), [Syngenta](https://github.com/syngenta) | Seed technology & GMO self-sufficiency |
-| 19 | 🤖 **Humanoid Robotics** | [Tesla](https://github.com/teslamotors), [Boston Dynamics](https://github.com/boston-dynamics) | Low-cost mass production ([Unitree](https://github.com/unitreerobotics)) |
-| 20 | 🔋 **Hydrogen Fuel Cells** | [Toyota](https://github.com/toyota), [Hyundai](https://github.com/hyundai) | Heavy-duty transport & green hydrogen |
+| # | Technology | Western Leaders | Chinese Challengers | Status/Focus |
+|:---:|---|---|---|---|
+| 1 | 🧠 **Frontier AI Models** | [OpenAI](https://github.com/openai), [Anthropic](https://github.com/anthropics) | [DeepSeek](https://github.com/deepseek-ai), [Baidu](https://github.com/ApolloAuto) | Efficiency & Logic |
+| 2 | 💾 **Advanced Chips** | [NVIDIA](https://github.com/NVIDIA), [Intel](https://github.com/intel) | [Huawei](https://www.huawei.com), [SMIC](https://www.smics.com) | sub-5nm self-sufficiency |
+| 3 | 🔬 **EUV Lithography** | [ASML](https://www.asml.com) | [SMEE](http://www.smee.com.cn) | Domestic photolithography |
+| 4 | 💻 **EDA Software** | [Cadence](https://github.com/cadence-design-systems) | [Empyrean](https://www.empyrean-tech.com) | Tool independence |
+| 5 | ⚛️ **Quantum Computing** | [IBM](https://github.com/ibm), [IonQ](https://github.com/ionq) | [Origin Quantum](https://github.com/OriginQ) | High-qubit scaling |
+| 6 | ✈️ **Commercial Aircraft** | [Boeing](https://github.com/Boeing), [Airbus](https://github.com/airbus) | [COMAC](http://www.comac.cc) | C919/C929 scaling |
+| 7 | 🧬 **Biopharma & mRNA** | [Pfizer](https://github.com/pfizer-opensource), [Moderna](https://github.com/moderna) | [BeiGene](https://www.beigene.com), [WuXi Bio](https://www.wuxibiologics.com) | Drug discovery platforms |
+| 8 | ☁️ **Cloud Infrastructure** | [AWS](https://github.com/aws), [Azure](https://github.com/azure) | [Alibaba](https://github.com/aliyun), [Tencent](https://github.com/Tencent) | Sovereign tech stacks |
+| 9 | 🛰️ **Satellite Internet** | [SpaceX](https://github.com/spacex) (Starlink) | [GalaxySpace](http://www.yinhe.ht) | LEO broadband |
+| 10 | 🧠 **Brain-Computer Interfaces** | [Neuralink](https://github.com/neuralinkcorp) | [NeuraMatrix](http://www.neuramatrix.com.cn) | Human-machine collab |
+| 11 | ☢️ **Nuclear Fusion** | [ITER](https://www.iter.org), [CFS](https://github.com/cfs-energy) | [ASIPP (EAST)](http://english.ipp.cas.cn) | CFETR Engineering |
+| 12 | 📏 **Precision Instruments** | [Thermo Fisher](https://github.com/thermofisherlsms), [Agilent](https://github.com/Agilent) | [Focused Photonics](https://www.fpi-inc.com/en) | Lab equipment sensors |
+| 13 | 🏥 **High-End Imaging** | [GE](https://github.com/GE), [Siemens](https://github.com/siemens) | [United Imaging](https://www.united-imaging.com) | Advanced MRI/CT |
+| 14 | 🚗 **Auto. Driving (FSD)** | [Tesla](https://github.com/teslamotors), [Waymo](https://github.com/waymo-research) | [Baidu Apollo](https://github.com/ApolloAuto), [Pony.ai](https://pony.ai) | L4/L5 FSD parity |
+| 15 | 🧵 **Advanced Carbon Fiber** | [Toray](https://www.toray.com), [Hexcel](https://www.hexcel.com) | [Zhongfu Shenying](http://www.zfsycf.com.cn) | Aerospace materials |
+| 16 | ⚓ **Marine Engines** | [MAN ES](https://github.com/man-es), [Wärtsilä](https://github.com/wartsila) | [Weichai Power](https://www.weichaipower.com) | Green propulsion |
+| 17 | ⚡ **Exascale Computing** | [HPE](https://github.com/HPE) | [Sugon](https://www.sugon.com), [Sunway](http://www.nsccwx.cn) | High-perf computing |
+| 18 | 🌾 **Agricultural Biotech** | [Bayer](https://github.com/Bayer-Group), [Syngenta](https://github.com/syngenta) | [Yuan Longping HT](http://www.lpht.com.cn) | Seed self-sufficiency |
+| 19 | 🤖 **Humanoid Robotics** | [Boston Dynamics](https://github.com/boston-dynamics) | [Unitree](https://github.com/unitreerobotics), [UBTECH](https://www.ubtrobot.com) | Mass production efficiency |
+| 20 | 🔋 **Hydrogen Fuel Cells** | [Toyota](https://github.com/toyota), [Hyundai](https://github.com/hyundai) | [Sinopec](http://www.sinopec.com/listco/en/) | Green energy transport |
 
 ---
 
