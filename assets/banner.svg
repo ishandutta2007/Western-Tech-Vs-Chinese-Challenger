@@ -1,0 +1,247 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070b19" />
+      <stop offset="45%" stop-color="#0b132b" />
+      <stop offset="55%" stop-color="#140f24" />
+      <stop offset="100%" stop-color="#1c0712" />
+    </linearGradient>
+
+    <!-- Western Neon Blue / Cyan Gradient -->
+    <linearGradient id="westGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe" />
+      <stop offset="100%" stop-color="#4facfe" />
+    </linearGradient>
+
+    <!-- Chinese Crimson / Gold Gradient -->
+    <linearGradient id="eastGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff0844" />
+      <stop offset="100%" stop-color="#ffb199" />
+    </linearGradient>
+
+    <linearGradient id="vsGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffd200" />
+      <stop offset="100%" stop-color="#f7971e" />
+    </linearGradient>
+
+    <!-- Glowing Filters -->
+    <filter id="glowWest" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="glowEast" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="glowVS" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="12" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <linearGradient id="beamWest" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0" />
+      <stop offset="50%" stop-color="#00f2fe" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="1" />
+    </linearGradient>
+
+    <linearGradient id="beamEast" x1="100%" y1="0%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#ff0844" stop-opacity="0" />
+      <stop offset="50%" stop-color="#ff0844" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="1" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    @keyframes pulseWest {
+      0%, 100% { opacity: 0.3; transform: scale(1); }
+      50% { opacity: 0.7; transform: scale(1.08); }
+    }
+    @keyframes pulseEast {
+      0%, 100% { opacity: 0.3; transform: scale(1); }
+      50% { opacity: 0.7; transform: scale(1.08); }
+    }
+    @keyframes clashSpark {
+      0%, 100% { transform: scale(0.95); opacity: 0.7; }
+      50% { transform: scale(1.2); opacity: 1; filter: drop-shadow(0 0 25px #ffd200); }
+    }
+    @keyframes scanLine {
+      0% { transform: translateX(-100px); opacity: 0; }
+      20% { opacity: 0.8; }
+      80% { opacity: 0.8; }
+      100% { transform: translateX(1300px); opacity: 0; }
+    }
+    @keyframes floatParticle {
+      0%, 100% { transform: translateY(0px) scale(1); opacity: 0.3; }
+      50% { transform: translateY(-15px) scale(1.3); opacity: 0.9; }
+    }
+    .pulse-west {
+      animation: pulseWest 4s ease-in-out infinite;
+      transform-origin: 220px 200px;
+    }
+    .pulse-east {
+      animation: pulseEast 4s ease-in-out infinite;
+      transform-origin: 980px 200px;
+      animation-delay: 2s;
+    }
+    .spark {
+      animation: clashSpark 2.5s ease-in-out infinite;
+      transform-origin: 600px 175px;
+    }
+    .scanner {
+      animation: scanLine 6s linear infinite;
+    }
+    .particle-1 { animation: floatParticle 3s ease-in-out infinite; }
+    .particle-2 { animation: floatParticle 4s ease-in-out infinite 1s; }
+    .particle-3 { animation: floatParticle 3.5s ease-in-out infinite 0.5s; }
+    .particle-4 { animation: floatParticle 4.5s ease-in-out infinite 1.5s; }
+    .node-west { fill: #00f2fe; filter: drop-shadow(0 0 6px #00f2fe); }
+    .node-east { fill: #ff0844; filter: drop-shadow(0 0 6px #ff0844); }
+  </style>
+
+  <!-- Deep High-Tech Background -->
+  <rect width="1200" height="400" fill="url(#bgGradient)" rx="16" />
+
+  <!-- Cyber Grid Lines -->
+  <g stroke="rgba(255,255,255,0.05)" stroke-width="1">
+    <line x1="0" y1="50" x2="1200" y2="50" />
+    <line x1="0" y1="100" x2="1200" y2="100" />
+    <line x1="0" y1="150" x2="1200" y2="150" />
+    <line x1="0" y1="200" x2="1200" y2="200" />
+    <line x1="0" y1="250" x2="1200" y2="250" />
+    <line x1="0" y1="300" x2="1200" y2="300" />
+    <line x1="0" y1="350" x2="1200" y2="350" />
+    
+    <line x1="150" y1="0" x2="150" y2="400" />
+    <line x1="300" y1="0" x2="300" y2="400" />
+    <line x1="450" y1="0" x2="450" y2="400" />
+    <line x1="600" y1="0" x2="600" y2="400" stroke="rgba(255,210,0,0.15)" stroke-dasharray="4 6" />
+    <line x1="750" y1="0" x2="750" y2="400" />
+    <line x1="900" y1="0" x2="900" y2="400" />
+    <line x1="1050" y1="0" x2="1050" y2="400" />
+  </g>
+
+  <!-- Animated Ambient Halos -->
+  <circle cx="240" cy="200" r="160" fill="url(#westGrad)" opacity="0.15" class="pulse-west" />
+  <circle cx="960" cy="200" r="160" fill="url(#eastGrad)" opacity="0.15" class="pulse-east" />
+
+  <!-- Western Tech Constellation Lines (Left) -->
+  <g stroke="#00f2fe" stroke-opacity="0.35" stroke-width="1.5">
+    <line x1="100" y1="120" x2="220" y2="90" />
+    <line x1="220" y1="90" x2="340" y2="150" />
+    <line x1="220" y1="90" x2="180" y2="240" />
+    <line x1="340" y1="150" x2="470" y2="175" />
+    <line x1="180" y1="240" x2="290" y2="290" />
+    <line x1="290" y1="290" x2="440" y2="250" />
+    <line x1="440" y1="250" x2="470" y2="175" />
+  </g>
+
+  <!-- Eastern Tech Constellation Lines (Right) -->
+  <g stroke="#ff0844" stroke-opacity="0.35" stroke-width="1.5">
+    <line x1="1100" y1="120" x2="980" y2="90" />
+    <line x1="980" y1="90" x2="860" y2="150" />
+    <line x1="980" y1="90" x2="1020" y2="240" />
+    <line x1="860" y1="150" x2="730" y2="175" />
+    <line x1="1020" y1="240" x2="910" y2="290" />
+    <line x1="910" y1="290" x2="760" y2="250" />
+    <line x1="760" y1="250" x2="730" y2="175" />
+  </g>
+
+  <!-- Glowing Constellation Nodes -->
+  <circle cx="100" cy="120" r="4" class="node-west particle-1" />
+  <circle cx="220" cy="90" r="5" class="node-west particle-2" />
+  <circle cx="340" cy="150" r="4.5" class="node-west particle-3" />
+  <circle cx="180" cy="240" r="4" class="node-west particle-4" />
+  <circle cx="290" cy="290" r="5" class="node-west particle-2" />
+  <circle cx="440" cy="250" r="4" class="node-west particle-1" />
+
+  <circle cx="1100" cy="120" r="4" class="node-east particle-1" />
+  <circle cx="980" cy="90" r="5" class="node-east particle-3" />
+  <circle cx="860" cy="150" r="4.5" class="node-east particle-2" />
+  <circle cx="1020" cy="240" r="4" class="node-east particle-4" />
+  <circle cx="910" cy="290" r="5" class="node-east particle-1" />
+  <circle cx="760" cy="250" r="4" class="node-east particle-3" />
+
+  <!-- Laser Clash Beams -->
+  <path d="M 440 175 L 560 175" stroke="url(#beamWest)" stroke-width="4" filter="url(#glowWest)" />
+  <path d="M 760 175 L 640 175" stroke="url(#beamEast)" stroke-width="4" filter="url(#glowEast)" />
+
+  <!-- Center Clash Energy Pulse -->
+  <g class="spark">
+    <circle cx="600" cy="175" r="32" fill="#ffd200" opacity="0.25" />
+    <circle cx="600" cy="175" r="18" fill="#ffffff" opacity="0.85" filter="url(#glowVS)" />
+    <polygon points="600,145 607,170 630,175 607,180 600,205 593,180 570,175 593,170" fill="#ffd200" />
+  </g>
+
+  <!-- Dynamic Radar Scanner Bar -->
+  <rect x="0" y="0" width="100" height="400" fill="url(#beamWest)" opacity="0.1" class="scanner" />
+
+  <!-- Header Title: Western Tech -->
+  <g filter="url(#glowWest)">
+    <text x="320" y="145" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="44" font-weight="900" fill="#ffffff" letter-spacing="1.5">
+      WESTERN TECH
+    </text>
+  </g>
+  <text x="320" y="145" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="44" font-weight="900" fill="url(#westGrad)" letter-spacing="1.5">
+    WESTERN TECH
+  </text>
+  <text x="320" y="180" text-anchor="middle" font-family="'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="600" fill="#a0c4ff" letter-spacing="3">
+    INNOVATION &amp; FRONTIER DOMINANCE 🇺🇸 🇪🇺
+  </text>
+
+  <!-- VS Center Badge -->
+  <rect x="560" y="152" width="80" height="46" rx="8" fill="#120c1f" stroke="url(#vsGrad)" stroke-width="2" />
+  <text x="600" y="184" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="24" font-weight="900" fill="url(#vsGrad)" letter-spacing="1">
+    VS
+  </text>
+
+  <!-- Header Title: Chinese Challenger -->
+  <g filter="url(#glowEast)">
+    <text x="880" y="145" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="44" font-weight="900" fill="#ffffff" letter-spacing="1.5">
+      CHINESE CHALLENGER
+    </text>
+  </g>
+  <text x="880" y="145" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="44" font-weight="900" fill="url(#eastGrad)" letter-spacing="1.5">
+    CHINESE CHALLENGER
+  </text>
+  <text x="880" y="180" text-anchor="middle" font-family="'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="600" fill="#ffb199" letter-spacing="3">
+    MANUFACTURING SCALE &amp; R&amp;D SPEED 🇨🇳
+  </text>
+
+  <!-- Subtitle Tagline Pill -->
+  <g transform="translate(600, 320)">
+    <rect x="-380" y="-22" width="760" height="44" rx="22" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.18)" stroke-width="1.2" />
+    <text x="0" y="6" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="600" fill="#e2e8f0" letter-spacing="1.5">
+      ⚡ BATTLEGROUND FOR AI • CHIPS • ROBOTICS • QUANTUM • CLEAN ENERGY ⚡
+    </text>
+  </g>
+
+  <!-- Top Tech Metric Badges -->
+  <g transform="translate(320, 240)">
+    <rect x="-140" y="-14" width="280" height="28" rx="6" fill="rgba(0, 242, 254, 0.1)" stroke="#00f2fe" stroke-width="1" />
+    <text x="0" y="5" text-anchor="middle" font-family="monospace" font-size="12" fill="#00f2fe" font-weight="bold">
+      FRONTIER AI • SEMIS • AEROSPACE
+    </text>
+  </g>
+
+  <g transform="translate(880, 240)">
+    <rect x="-140" y="-14" width="280" height="28" rx="6" fill="rgba(255, 8, 68, 0.1)" stroke="#ff0844" stroke-width="1" />
+    <text x="0" y="5" text-anchor="middle" font-family="monospace" font-size="12" fill="#ff4d6d" font-weight="bold">
+      EV BATTERIES • 6G INFRA • DRONES
+    </text>
+  </g>
+
+  <!-- Outer Frame Highlight -->
+  <rect x="1" y="1" width="1198" height="398" rx="15" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="2" />
+</svg>
